@@ -95,3 +95,14 @@ Note: In order to deploy in your own AWS environment please change the following
 
 <img width="742" alt="Screenshot 2022-11-23 at 10 58 03 PM" src="https://user-images.githubusercontent.com/48310743/203578855-e430020a-33db-41b6-9a40-18db95683ed1.png">
 
+
+Testing revised:
+
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: YYYJQOe4QIaetihouifKCDGaSMI5H3v25ZoxhrTf" \
+  -d '{"long_url":"https://www.google.com/search?q=helloworld"}' \
+  https://shortener.sctp-sandbox.com/newurl
+
+It works:
+https://shortener.sctp-sandbox.com/EggVqhqGnBfL7G
